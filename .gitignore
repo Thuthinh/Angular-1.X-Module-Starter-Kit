@@ -1,0 +1,8 @@
+# Ignore Node & Bower
+###################
+node_modules
+/modular/client/build
+/modular/build
+bower_components
+**/test/coverage
+/reports
