@@ -10,4 +10,4 @@
     function init() {
         var vm = this;
     }
-})();
+}());
