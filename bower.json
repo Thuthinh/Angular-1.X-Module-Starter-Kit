@@ -3,13 +3,10 @@
   "private": true,
   "dependencies": {
     "angular": "1.4.5",
-    "angular-filter": "0.5.8",
     "jquery": "2.1.4",
     "toastr": "2.1.2",
     "ui-router": "0.2.15",
-    "ui-router-extras": "*",
     "moment": "2.10.6",
-    "kendo-ui-core": "*",
     "bootstrap": "3.3.5",
     "font-awesome": "4.4.0",
     "nprogress": "*"

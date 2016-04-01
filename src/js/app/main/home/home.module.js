@@ -17,7 +17,7 @@
                 state: 'home',
                 config: {
                     url: '/',
-                    templateUrl: '/Template/home/home.html',
+                    templateUrl: '/template/home.html',
                     controller: 'home',
                     controllerAs: 'vm',
                     title: 'Home'

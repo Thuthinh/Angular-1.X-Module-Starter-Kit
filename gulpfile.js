@@ -21,10 +21,6 @@ var paths = {
 var bowerJs = [
     'jquery/dist/jquery.js',
     'angular/angular.js',
-    'angular-filter/dist/angular-filter.js',
-    'kendo-ui-core/js/kendo.core.min.js',
-    'kendo-ui-core/js/kendo.ui.core.min.js',
-    'kendo-ui-core/js/kendo.angular.js',
     'ui-router/release/angular-ui-router.js',
     'moment/moment.js',
     'nprogress/nprogress.js',
@@ -34,8 +30,6 @@ var bowerJs = [
 var bowerCss = [
     'bootstrap/dist/css/bootstrap.min.css',
     'bootstrap/dist/css/bootstrap-theme.min.css',
-    'kendo-ui-core/styles/kendo.bootstrap.min.css',
-    'kendo-ui-core/styles/kendo.common-bootstrap.min.css',
     'font-awesome/css/font-awesome.min.css',
     'nprogress/nprogress.css',
     'toastr/toastr.css'
