@@ -1,0 +1,28 @@
+﻿<div data-ng-controller="Shell as vm">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">{{::vm.appTitle}} ({{::vm.version}})</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-if="vm.hasModifyRight">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown" dropdown="">
+                        <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" dropdown-toggle=""><i class="fa fa-fw fa-suitcase"></i>&nbsp;Admin&nbsp;<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/admin"><i class="fa fa-fw fa-user"></i>User</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div ui-view></div>
+    </section>
+</div>
