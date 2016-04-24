@@ -17,3 +17,6 @@ https://github.com/johnpapa/ng-demos/tree/master/modular
 2. bower install
 3. npm run dev or npm run prod
 4. you need to install a loca web server(npm install local-web-server)
+
+# Extra
+1. Remove bower package manager.
